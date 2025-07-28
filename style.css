@@ -7,6 +7,8 @@ body {
   color: #333;
 }
 
+
+
 .foto-perfil {
   width: 150px;
   height: 150px;
@@ -54,4 +56,19 @@ footer {
   padding: 1rem;
   background: #f1f1f1;
   font-size: 0.9rem;
+}
+.boton-cv {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.boton-cv:hover {
+  background-color: #0056b3;
 }
